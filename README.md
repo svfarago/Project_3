@@ -4,30 +4,21 @@
 
 Jenni Davis, Susan Farago, David Jimenez, Elizabeth Conway, & Austin Olea (June 2021)
 
-[UPDATE >> For more information, please refer to Colorado National Parks Project Final Report!](https://github.com/econway0321/project-2/blob/main/Colorado_NP_Camping_(Project_2).pdf)
+[For more information, please refer to xxx Project Final Report!](https://github.com/econway0321/project-2/blob/main/Colorado_NP_Camping_(Project_2).pdf)
 
 ## Summary
-Our team is continuing our deep dive into reservable camping spots in Colorado. For our [ETL](https://github.com/econway0321/ETL-Project/blob/main/ETL%20Project%20Final%20Report.pdf) project we built a SQL database that identifies Colorado campground locations by latitude and longitude coordinates, provides the number of camping spaces at each location, and the allowable equipment to be used at each site.  The database also provides enthusiasts with the opportunity to review historical availability from 2010 - 2020 and reservation lead-time by location. In addition to our database we will be adding weather JS library to complete our dashboard.
+Our team is xxx
 
 ### Target Audience:
 
 • Our project looks at answers to open ended self-assessment style questions and attempts to....
 
 ### Database Information:
-- Identify the 4 national park locations within Colorado.
-- Quantify the availability of spaces.
-- Retrieve the quantity of spaces available and of those, which are designated as RV only camping, tent only camping, or both.
-- Retrieve weather-related data by search or by map.
+- xxx
 
 ### Technical Specifications:
 
-- Interactive HTML-based dashboard powered by a Python Flask API, HTML/CSS, JavaScript, and a SQL database
-- Project Type: A dashboard with build-in user driven interactions (dropdown menus)with multiple charts that update from the same data
-- HTML/CSS Template: Creative Tim templates
-- JavaScript Libraries: jquery.js, d3.js, plotly.js, leaflet.js, stars.js (VirtualSky.ico.global)
-- SQL database: From ETL project
-- Number of Records: 528
-- Final Visualizations: National Park Locations, Night Sky at Each Park, Camping Historical Activity, Local Weather Data
-- Bonus Visualizations: Campfire and Live Weather Conditions
+- #NLTK = Natural Language Tool Kit
+- #VADER = *not darth* Valence Aware Dictionary for Sentiment Reasoning
 
 
