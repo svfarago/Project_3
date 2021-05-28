@@ -2,41 +2,35 @@
 <html lang="en">
 
 <head>
-  <title>Auto Anwser Scoring - Input</title>
+  <title>What We Found</title>
+
+  <!-- Background -->
+  <video autoplay muted loop id="myVideo">
+    <source src="../assets/background/production ID_5192067.mp4" type="video/mp4">
+  </video>
+  <div class="background">
+    <div class="layer">
+    </div>
+  </div>
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
   <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
   <!-- Material Kit CSS -->
   <link href="../assets/css/material-dashboard.css?v=2.1.2" rel="stylesheet" />
 
-  <script src="https://d3js.org/d3.v6.min.js"></script>
-  
-  <!--Local JS-->
-  <script type="text/javascript" src="../assets/js/local.js"></script>
-
-  <!--MAP-->
-  <link rel="icon1" type="image/png" href="https://icons8.com/icon/Lcoa9tnTFcSd/compass">
-
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin="" />
-
-  <!--D3 cdn-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
-  <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="../assets/css/map_style.css">
-
-  <!-- Local Weather -->
-  <link rel="stylesheet" href="../assets/css/weather_stylew.css">
-  <link rel="icon" href="../assets/img/iconwrld.png" type="image/x-icon">
-
-  <!--Select CSS-->
-  <link rel="stylesheet" href="../assets/css/select.css">
+  <!--Slideshow CSS-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  .mySlides {display:none;}
+  </style>
 
 </head>
 
@@ -44,21 +38,57 @@
     <div  class="main-panel">
       </div>
       <!-- your content here -->
-    <div class="container box" style="padding-top: 40px;">
+    <div class="container box" style="padding-top: 10px;">
       <div class="column">
         <div class="box">
-          <h3 class="title" style="color:white">  🧠  See How You Rank</h3>
+          <h3 class="title" style="color:white">  🧠  What We Found</h3>
           <hr>
           <div class="container" style="padding-bottom: 40px;">
+            
               <!---Text Input Field-->
             <div class="row">
               <div class="col-lg-12" style="padding: 10px;">
-                <h3>This is for technical trainers who are are learning to teach in a virtual or remote environment.</h3>
-                <div class="title" style="color:white">Please provide an answer to the following question:</div>
+                <h3> Problem to Solve: Can we use machine learning to accurately and effectively evaluate a trainer’s responses to essay-style questions in order to predict a trainer’s training and facilitation skills?</h3>
+                <p style="margin-left: 40px"><big>Based on the dataset we used, we were unable to reliably predict a trainer’s training and facilitation skills based on evaluating the trainer’s response to essay-style questions. The data was run against three different machine learning models: Scikit-Learn, Linear Regression, and Random Forest Regressor.</big></p>
+                <p size="+2" style="margin-left: 40px"><big>Next steps: Reevaluate questions in order to gain better responses. Rerun models and analyze results. It's not the model, it's the data.</big></p>
                 <hr>
-                <h3>What is one activity your co-trainer can do to support you while you are teaching a remote class?</h3>
-                <textarea name="paragraph_text" cols="129" rows="10"></textarea> 
-                <input type="submit">
+                <h3 style="padding-top: 10px;">Example Questions</h3>
+                <p size="+2" style="margin-left: 40px"><big>11. What is one tip that you would share with someone preparing to teach a virtual class for the first time?<br>
+                  12. What would you recommend as a tip or method to keep remote learners engaged and why?<br>
+                  13. What is one activity your co-trainer can do to support you while you are teaching a remote class?<br>
+                  14. What is one way you can gain empathy for the student's virtual classroom experience?<br>
+                  15. What do you think is one benefit of having at least two trainers for your class?</big></p>
+                <hr>
+                <h3 class="w3-center" style="padding-bottom: 40px; padding-top: 40px;" >Regression Analysis Samples: Questions 11-13</h3>
+                <div class="w3-content w3-display-container">
+                  <img class="mySlides" src="../assets/graphs/11 - Average Training Score vs. Compount Sentiment Polarity Score.png" style="width:100%">
+                  <img class="mySlides" src="../assets/graphs/12 - Average Training Score vs. Compount Sentiment Polarity Score.png" style="width:100%">
+                  <img class="mySlides" src="../assets/graphs/13 - Average Training Score vs. Compount Sentiment Polarity Score (1).png" style="width:100%">
+                  <img class="mySlides" src="../assets/graphs/14 - Average Training Score vs. Compount Sentiment Polarity Score.png" style="width:100%">
+                  <img class="mySlides" src="../assets/graphs/15 - Average Training Score vs. Compount Sentiment Polarity Score.png" style="width:100%">
+                  <!-- <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button> -->
+                  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                  <hr>
+                </div>  
+                <script>
+                  var slideIndex = 1;
+                  showDivs(slideIndex);
+                  
+                  function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                  }
+                  
+                  function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                  }
+                </script>
               </div>
             </div>  
           </div>
@@ -66,7 +96,51 @@
       </div>
     </div>
   </div>  
-</div>    
+</div> 
+<div class="container">
+  <div class="row">
+      <div class="box">
+        <h3 class="w3-center" style="padding-bottom: 40px; padding-top: 10px;" >Responses for Entire Data Set: Questions 1-20</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6" style="padding: 30px;">
+              <div class="title"></div>
+                <hr>
+                <a>Average Training and Facilitation Score</a>
+                <img width="500" height="350" src="../assets/graphs/Average Training and Facilitation Score.png"><img>
+                <hr>
+                </a>
+              </div>
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title"></div>
+                <hr>
+                <a>Average Knowledge Score</a>
+                <img width="500" height="350" src="../assets/graphs/Average Knowledge Score.png"><img>
+                <hr>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title"></div>
+                <a>Filtered Word Count</a>
+                <img width="500" height="350" src="../assets/graphs/Filtered Word Count.png"><img>
+                <hr>
+                </a>
+              </div>
+              <div class="col-lg-6" style="padding: 30px;">
+                <div class="title"></div>
+                <a>Tokenized Word Count</a>
+                <img width="500" height="350" src="../assets/graphs/Tokenized Word Count.png"><img>
+              <hr>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
   <!--Footer-->
   <footer class="footer">
     <div class="container-fluid">
@@ -84,34 +158,5 @@
   </footer>
   </div>
 </div>
-
-  <!--GENERAL-->
-  <script type="text/javascript" src="../assets/js/local_test.js"></script>
-
-  <!-- MAP -->
-
-   <!-- Leaflet JS -->
-   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-   crossorigin=""></script>
- <!--json-->
- <script src="../assets/js/map_geo.json"></script>
- <!-- API key -->
- <script type="text/javascript" src="../assets/js/map_config.js"></script>
- <!-- Our JS -->
- <script type="text/javascript" src="../assets/js/map_logic.js"></script>
-
- <!-- Local Weather -->
-
- <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
- <script src="//cdn.jsdelivr.net/velocity/1.1.0/velocity.min.js"></script>
- <script src="../assets/js/weather_logicw.js"></script>
-
-   <!-- Historical Activity -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script type="text/javascript" src="../assets/js/historical_activity.js"></script>
-
 </body>
-
 </html>
