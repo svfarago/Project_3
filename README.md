@@ -4,7 +4,7 @@
 
 Jenni Davis, David Jimenez, Elizabeth Conway, Austin Olea, Susan Farago, & Catherine Poirier (June 2021)
 
-[For more information and detailed results, please refer to the Project Final Report!](https://github.com/econway0321/project-2/blob/main/Colorado_NP_Camping_(Project_2).pdf)
+[For more information and detailed results, please refer to the Project Final Report!](https://github.com/svfarago/Project_3/blob/main/Feed%20the%20Machine_%20Self-Assessment%20Scoring%20Project%203%20June%201%2C%202021.pdf)
 
 ## Problem to Solve
 Can we use machine learning to accurately and effectively evaluate a trainer’s responses to essay-style questions in order to predict a trainer’s training and facilitation skills?
