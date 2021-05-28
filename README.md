@@ -1,10 +1,10 @@
-# "Feed the Machine" (Project 3)
+# "Feed the Machine - Language Analysis" (Project 3)
 
 ![image.PNG](images/image.png?raw=true "Feed the Machine - Language Analysis")
 
 Jenni Davis, David Jimenez, Elizabeth Conway, Austin Olea, Susan Farago, & Catherine Poirier (June 2021)
 
-[For more information and detailed results, please refer to the Project Final Report!](https://github.com/svfarago/Project_3/blob/main/Feed%20the%20Machine_%20Self-Assessment%20Scoring%20Project%203%20June%201%2C%202021.pdf)
+[For more information and detailed results, please refer to the Project Final Report!](https://github.com/svfarago/Project_3/blob/main/Project3_Feed_The_Machine_June2021.pdf)
 
 ## Problem to Solve
 Can we use machine learning to accurately and effectively evaluate a trainer’s responses to essay-style questions in order to predict a trainer’s training and facilitation skills?
@@ -32,11 +32,11 @@ Next steps: Reevaluate questions in order to gain better responses. Rerun models
 - Vader Sentiment Analysis
 - Matplotlib
 - Machine Learning Models:
--- Scikit-learn
---- Naive Bayes Classifier
---- GaussianNB
--- Linear Regression
--- Random Forest Regressor
+- Scikit-learn
+- Naive Bayes Classifier
+- GaussianNB
+- Linear Regression
+- Random Forest Regressor
 - HTML / CSS / Bootstrap
 - Flask
 - GitHub Pages
