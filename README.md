@@ -6,6 +6,8 @@ Jenni Davis, David Jimenez, Elizabeth Conway, Austin Olea, Susan Farago, & Cathe
 
 [For more information and detailed results, please refer to the Project Final Report!](https://github.com/svfarago/Project_3/blob/main/Project3_Feed_The_Machine_June2021.pdf)
 
+[Final Web Page](https://github.com/svfarago/Project_3/blob/main/template/index.html)
+
 ## Problem to Solve
 Can we use machine learning to accurately and effectively evaluate a trainer’s responses to essay-style questions in order to predict a trainer’s training and facilitation skills?
 
