@@ -38,7 +38,6 @@ Next steps: Reevaluate questions in order to gain better responses. Rerun models
 - Linear Regression
 - Random Forest Regressor
 - HTML / CSS / Bootstrap
-- Flask
 - GitHub Pages
 
 
