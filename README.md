@@ -33,11 +33,11 @@ Next steps: Reevaluate questions in order to gain better responses. Rerun models
 - Vader Sentiment Analysis
 - Matplotlib
 - Machine Learning Models:
-- Scikit-learn
-- Naive Bayes Classifier
-- GaussianNB
-- Linear Regression
-- Random Forest Regressor
+-- Scikit-learn
+-- Naive Bayes Classifier
+-- GaussianNB
+-- Linear Regression
+-- Random Forest Regressor
 - HTML / CSS / Bootstrap
 - GitHub Pages
 
